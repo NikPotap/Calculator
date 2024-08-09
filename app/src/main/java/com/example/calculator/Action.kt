@@ -14,7 +14,8 @@ class Action(private val t1: String, private val t2: String) {
         var prefix = ""
         if (seconds < 0) {
             seconds *= -1
-        prefix = "-"}
+            prefix = "-"
+        }
         val hours = (seconds / 3600).toInt()
         val minutes = (seconds / 60).toInt() - hours * 60
         seconds %= 60

@@ -13,5 +13,5 @@ fun convertToSeconds(time: String): Int {
     else m = time.substring(indexOfH + 1, indexOfM).toInt()
     if (indexOfS == indexOfM + 1) s = 0
     else s = time.substring(indexOfM + 1, indexOfS).toInt()
-    return s+m*60+h*3600
+    return s + m * 60 + h * 3600
 }
