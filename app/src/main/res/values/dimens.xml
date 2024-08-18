@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeToTitleInputSpaceAndResult">20dp</dimen>
+    <dimen name="textSizeToInputSpace">20sp</dimen>
+    <dimen name="textSizeToButton">20sp</dimen>
+</resources>

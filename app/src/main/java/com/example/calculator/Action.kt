@@ -6,7 +6,7 @@ class Action(private val t1: String, private val t2: String) {
         val hours = (seconds / 3600).toInt()
         val minutes = (seconds / 60).toInt() - hours * 60
         seconds %= 60
-        return hours.toString() + " ч. " + minutes.toString() + " м. " + seconds.toString() + " с. "
+        return hours.toString() + " ч. " + minutes.toString() + " м. " + seconds.toString() + " с."
     }
 
     fun dif(): String {

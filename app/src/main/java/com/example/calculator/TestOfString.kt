@@ -16,6 +16,7 @@ fun testOfString(inp: String): Boolean {
         '8',
         '9'
     )
+    if (inp == "") return false
     if (inp.any { c -> c !in listOfSymbols }) return false
     val indexOfH = inp.indexOf('ч')
     val indexOfM = inp.indexOf('м')

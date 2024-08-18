@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="titleOfProgTV">Калькулятор времени</string>
-    <string name="closeBTN">закрыть</string>
-    <string name="resetBTN">сбросить</string>
+    <string name="titleOfProg">Калькулятор времени</string>
+    <string name="exitForMenu">Закрыть</string>
+    <string name="resetForMenu">Сбросить</string>
     <string name="titleOfInputTime">Введите значение времени:</string>
     <string name="inputTime1">первое</string>
     <string name="inputTime2">второе</string>
     <string name="buttonSum">СУММА</string>
     <string name="buttonDif">РАЗНОСТЬ</string>
-    <string name="titltResult">Результат:</string>
+    <string name="errorInput">Ошибочный ввод.</string>
+    <string name="resultOut">Результат: </string>
+    <string name="closed">Приложение закрыто.</string>
+    <string name="cleaned">Данные сброшены.</string>
 </resources>
