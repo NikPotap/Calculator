@@ -74,8 +74,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(per: View?) {
-        var time01 = inputTime1ET.text.toString()
-        var time02 = inputTime2ET.text.toString()
+        var time01 = inputTime1ET.text.toString().replace(" ", "")
+        var time02 = inputTime2ET.text.toString().replace(" ", "")
         if (testOfString(time01) == false || testOfString(time02) == false) {
             Toast.makeText(
                 applicationContext,
