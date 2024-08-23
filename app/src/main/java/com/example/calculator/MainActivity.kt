@@ -9,7 +9,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         toolbarMain = findViewById(R.id.toolbarMain)
         setSupportActionBar(toolbarMain)
-        title = "Калькулятор времени"
+        toolbarMain.title = resources.getString(R.string.titleOfProg)
         toolbarMain.subtitle = "Почему меню лезет вверх?"
         toolbarMain.setLogo(R.drawable.baseline_insert_emoticon_24)
 

@@ -2,9 +2,8 @@ package com.example.calculator
 
 fun testOfString(inp: String): Boolean {
     val listOfSymbols = listOf(
-        'ч',
-        'м',
-        'с',
+        'm',
+        's',
         '0',
         '1',
         '2',
@@ -18,10 +17,9 @@ fun testOfString(inp: String): Boolean {
     )
     if (inp == "") return false
     if (inp.any { c -> c !in listOfSymbols }) return false
-    val indexOfH = inp.indexOf('ч')
-    val indexOfM = inp.indexOf('м')
-    val indexOfS = inp.indexOf('с')
-    if (indexOfM > indexOfS || indexOfH > indexOfM) return false
-    if (indexOfH == null || indexOfH == null || indexOfS == null) return false
+    val indexOfM = inp.indexOf('m')
+    val indexOfS = inp.indexOf('s')
+    if (indexOfM > indexOfS) return false
+    if (indexOfS == null || indexOfS == null) return false
     return true
 }
